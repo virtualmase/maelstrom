@@ -13,7 +13,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const navItems = [
-  { name: "Dashboard", href: "/", icon: Activity, active: true },
+  { name: "Dashboard", href: "/", icon: Activity },
   { name: "Trading", href: "/trading", icon: TrendingUp },
   { name: "Security", href: "/security", icon: Shield },
   { name: "Analytics", href: "/analytics", icon: BarChart3 },
@@ -21,6 +21,7 @@ const navItems = [
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <>

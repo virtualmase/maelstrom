@@ -216,11 +216,11 @@ export default function Index() {
 
         {/* Digital Twin Modules */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-          <Card className="bg-gradient-to-br from-primary/10 to-primary/5 border-primary/30 hover:border-primary/50 transition-colors cursor-pointer">
+          <Card className="bg-gradient-to-br from-kraken-purple/10 to-kraken-purple/5 border-kraken-purple/30 hover:border-kraken-purple/50 transition-colors cursor-pointer">
             <CardContent className="p-6">
               <div className="flex items-center space-x-3">
-                <div className="p-2 bg-primary/20 rounded-lg">
-                  <TrendingUp className="h-6 w-6 text-primary" />
+                <div className="p-2 bg-kraken-purple/20 rounded-lg">
+                  <TrendingUp className="h-6 w-6 text-kraken-purple" />
                 </div>
                 <div>
                   <h3 className="font-semibold">Trading Module</h3>
@@ -232,11 +232,11 @@ export default function Index() {
             </CardContent>
           </Card>
 
-          <Card className="bg-gradient-to-br from-accent/10 to-accent/5 border-accent/30 hover:border-accent/50 transition-colors cursor-pointer">
+          <Card className="bg-gradient-to-br from-kraken-purple-light/10 to-kraken-purple-light/5 border-kraken-purple-light/30 hover:border-kraken-purple-light/50 transition-colors cursor-pointer">
             <CardContent className="p-6">
               <div className="flex items-center space-x-3">
-                <div className="p-2 bg-accent/20 rounded-lg">
-                  <Shield className="h-6 w-6 text-accent" />
+                <div className="p-2 bg-kraken-purple-light/20 rounded-lg">
+                  <Shield className="h-6 w-6 text-kraken-purple-light" />
                 </div>
                 <div>
                   <h3 className="font-semibold">Security Module</h3>
@@ -248,11 +248,11 @@ export default function Index() {
             </CardContent>
           </Card>
 
-          <Card className="bg-gradient-to-br from-electric-blue/10 to-electric-blue/5 border-electric-blue/30 hover:border-electric-blue/50 transition-colors cursor-pointer">
+          <Card className="bg-gradient-to-br from-accent/10 to-accent/5 border-accent/30 hover:border-accent/50 transition-colors cursor-pointer">
             <CardContent className="p-6">
               <div className="flex items-center space-x-3">
-                <div className="p-2 bg-electric-blue/20 rounded-lg">
-                  <Users className="h-6 w-6 text-electric-blue" />
+                <div className="p-2 bg-accent/20 rounded-lg">
+                  <Users className="h-6 w-6 text-accent" />
                 </div>
                 <div>
                   <h3 className="font-semibold">User Experience</h3>
@@ -264,11 +264,11 @@ export default function Index() {
             </CardContent>
           </Card>
 
-          <Card className="bg-gradient-to-br from-cyber-teal/10 to-cyber-teal/5 border-cyber-teal/30 hover:border-cyber-teal/50 transition-colors cursor-pointer">
+          <Card className="bg-gradient-to-br from-kraken-purple-dark/10 to-kraken-purple-dark/5 border-kraken-purple-dark/30 hover:border-kraken-purple-dark/50 transition-colors cursor-pointer">
             <CardContent className="p-6">
               <div className="flex items-center space-x-3">
-                <div className="p-2 bg-cyber-teal/20 rounded-lg">
-                  <Database className="h-6 w-6 text-cyber-teal" />
+                <div className="p-2 bg-kraken-purple-dark/20 rounded-lg">
+                  <Database className="h-6 w-6 text-kraken-purple-dark" />
                 </div>
                 <div>
                   <h3 className="font-semibold">Analytics</h3>

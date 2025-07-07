@@ -57,6 +57,23 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Maelstrom brand colors
+        ocean: {
+          deep: "hsl(var(--ocean-deep))",
+          surface: "hsl(var(--ocean-surface))",
+        },
+        electric: {
+          blue: "hsl(var(--electric-blue))",
+        },
+        cyber: {
+          teal: "hsl(var(--cyber-teal))",
+        },
+        warning: {
+          amber: "hsl(var(--warning-amber))",
+        },
+        success: {
+          green: "hsl(var(--success-green))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

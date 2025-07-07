@@ -61,20 +61,24 @@ export function Navigation() {
 
           {/* Navigation items */}
           <div className="space-y-2">
-            {navItems.map((item) => (
-              <Button
-                key={item.name}
-                variant={item.active ? "default" : "ghost"}
-                className={cn(
-                  "w-full justify-start",
-                  item.active &&
-                    "bg-primary/20 text-primary hover:bg-primary/30",
-                )}
-              >
-                <item.icon className="mr-2 h-4 w-4" />
-                {item.name}
-              </Button>
-            ))}
+            {navItems.map((item) => {
+              const isActive = location.pathname === item.href;
+              return (
+                <Link key={item.name} to={item.href}>
+                  <Button
+                    variant={isActive ? "default" : "ghost"}
+                    className={cn(
+                      "w-full justify-start",
+                      isActive &&
+                        "bg-primary/20 text-primary hover:bg-primary/30",
+                    )}
+                  >
+                    <item.icon className="mr-2 h-4 w-4" />
+                    {item.name}
+                  </Button>
+                </Link>
+              );
+            })}
           </div>
 
           {/* Status indicators */}

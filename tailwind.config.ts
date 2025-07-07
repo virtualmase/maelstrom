@@ -57,16 +57,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Maelstrom brand colors
-        ocean: {
-          deep: "hsl(var(--ocean-deep))",
-          surface: "hsl(var(--ocean-surface))",
-        },
-        electric: {
-          blue: "hsl(var(--electric-blue))",
-        },
-        cyber: {
-          teal: "hsl(var(--cyber-teal))",
+        // Kraken brand colors
+        kraken: {
+          purple: "hsl(var(--kraken-purple))",
+          "purple-dark": "hsl(var(--kraken-purple-dark))",
+          "purple-light": "hsl(var(--kraken-purple-light))",
+          "dark-bg": "hsl(var(--kraken-dark-bg))",
         },
         warning: {
           amber: "hsl(var(--warning-amber))",

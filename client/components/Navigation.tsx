@@ -52,7 +52,7 @@ export function Navigation() {
               <div className="absolute inset-0 bg-primary/20 blur-md rounded-full" />
             </div>
             <div>
-              <h1 className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              <h1 className="text-xl font-bold bg-gradient-to-r from-kraken-purple to-kraken-purple-light bg-clip-text text-transparent">
                 Maelstrom
               </h1>
               <p className="text-xs text-muted-foreground">Digital Twin</p>

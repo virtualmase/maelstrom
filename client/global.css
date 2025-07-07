@@ -4,63 +4,63 @@
 
 @layer base {
   /**
-   * Maelstrom Digital Twin Theme
-   * Dark oceanic theme with electric blues and teals
+   * Kraken-inspired Dark Mode Theme
+   * Authentic Kraken purple-based dark theme
    */
   :root {
-    --background: 222 47% 4%;
-    --foreground: 200 20% 95%;
+    --background: 258 37% 8%;
+    --foreground: 0 0% 95%;
 
-    --card: 222 40% 6%;
-    --card-foreground: 200 15% 92%;
+    --card: 258 30% 12%;
+    --card-foreground: 0 0% 92%;
 
-    --popover: 222 45% 5%;
-    --popover-foreground: 200 15% 92%;
+    --popover: 258 35% 10%;
+    --popover-foreground: 0 0% 92%;
 
-    --primary: 194 100% 50%;
-    --primary-foreground: 222 40% 8%;
+    --primary: 258 80% 58%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 222 40% 12%;
-    --secondary-foreground: 194 40% 80%;
+    --secondary: 258 25% 18%;
+    --secondary-foreground: 258 20% 80%;
 
-    --muted: 222 30% 10%;
-    --muted-foreground: 200 10% 65%;
+    --muted: 258 20% 15%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 176 100% 45%;
-    --accent-foreground: 222 40% 8%;
+    --accent: 280 60% 65%;
+    --accent-foreground: 258 30% 12%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 200 20% 95%;
+    --destructive-foreground: 0 0% 95%;
 
-    --border: 222 30% 15%;
-    --input: 222 30% 12%;
-    --ring: 194 100% 50%;
+    --border: 258 15% 20%;
+    --input: 258 20% 15%;
+    --ring: 258 80% 58%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    --sidebar-background: 222 40% 6%;
-    --sidebar-foreground: 200 15% 92%;
-    --sidebar-primary: 194 100% 50%;
-    --sidebar-primary-foreground: 222 40% 8%;
-    --sidebar-accent: 222 40% 12%;
-    --sidebar-accent-foreground: 194 40% 80%;
-    --sidebar-border: 222 30% 15%;
-    --sidebar-ring: 194 100% 50%;
+    --sidebar-background: 258 35% 10%;
+    --sidebar-foreground: 0 0% 92%;
+    --sidebar-primary: 258 80% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 258 25% 18%;
+    --sidebar-accent-foreground: 258 20% 80%;
+    --sidebar-border: 258 15% 20%;
+    --sidebar-ring: 258 80% 58%;
 
-    /* Maelstrom specific colors */
-    --ocean-deep: 222 47% 4%;
-    --ocean-surface: 194 100% 50%;
-    --electric-blue: 210 100% 56%;
-    --cyber-teal: 176 100% 45%;
+    /* Kraken brand colors */
+    --kraken-purple: 258 80% 58%;
+    --kraken-purple-dark: 258 60% 40%;
+    --kraken-purple-light: 280 60% 65%;
+    --kraken-dark-bg: 258 37% 8%;
     --warning-amber: 43 96% 56%;
     --success-green: 142 76% 36%;
 
-    /* Additional theme colors */
-    --chart-1: 194 100% 50%;
-    --chart-2: 176 100% 45%;
-    --chart-3: 210 100% 56%;
+    /* Chart colors matching Kraken */
+    --chart-1: 258 80% 58%;
+    --chart-2: 280 60% 65%;
+    --chart-3: 142 76% 36%;
     --chart-4: 43 96% 56%;
-    --chart-5: 142 76% 36%;
+    --chart-5: 0 84% 60%;
   }
 
   .light {

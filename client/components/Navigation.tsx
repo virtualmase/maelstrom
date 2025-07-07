@@ -10,6 +10,7 @@ import {
   X,
 } from "lucide-react";
 import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 const navItems = [
   { name: "Dashboard", href: "/", icon: Activity, active: true },

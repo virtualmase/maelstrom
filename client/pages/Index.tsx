@@ -217,39 +217,43 @@ export default function Index() {
 
         {/* Digital Twin Modules */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-          <Card className="bg-gradient-to-br from-kraken-purple/10 to-kraken-purple/5 border-kraken-purple/30 hover:border-kraken-purple/50 transition-colors cursor-pointer">
-            <CardContent className="p-6">
-              <div className="flex items-center space-x-3">
-                <div className="p-2 bg-kraken-purple/20 rounded-lg">
-                  <TrendingUp className="h-6 w-6 text-kraken-purple" />
+          <Link to="/trading">
+            <Card className="bg-gradient-to-br from-kraken-purple/10 to-kraken-purple/5 border-kraken-purple/30 hover:border-kraken-purple/50 transition-colors cursor-pointer">
+              <CardContent className="p-6">
+                <div className="flex items-center space-x-3">
+                  <div className="p-2 bg-kraken-purple/20 rounded-lg">
+                    <TrendingUp className="h-6 w-6 text-kraken-purple" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">Trading Module</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Spot, margin & futures
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-semibold">Trading Module</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Spot, margin & futures
-                  </p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </Link>
 
-          <Card className="bg-gradient-to-br from-kraken-purple-light/10 to-kraken-purple-light/5 border-kraken-purple-light/30 hover:border-kraken-purple-light/50 transition-colors cursor-pointer">
-            <CardContent className="p-6">
-              <div className="flex items-center space-x-3">
-                <div className="p-2 bg-kraken-purple-light/20 rounded-lg">
-                  <Shield className="h-6 w-6 text-kraken-purple-light" />
+          <Link to="/security">
+            <Card className="bg-gradient-to-br from-kraken-purple-light/10 to-kraken-purple-light/5 border-kraken-purple-light/30 hover:border-kraken-purple-light/50 transition-colors cursor-pointer">
+              <CardContent className="p-6">
+                <div className="flex items-center space-x-3">
+                  <div className="p-2 bg-kraken-purple-light/20 rounded-lg">
+                    <Shield className="h-6 w-6 text-kraken-purple-light" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">Security Module</h3>
+                    <p className="text-sm text-muted-foreground">
+                      2FA, passkeys & threats
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-semibold">Security Module</h3>
-                  <p className="text-sm text-muted-foreground">
-                    2FA, passkeys & threats
-                  </p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </Link>
 
-          <Card className="bg-gradient-to-br from-accent/10 to-accent/5 border-accent/30 hover:border-accent/50 transition-colors cursor-pointer">
+          <Card className="bg-gradient-to-br from-accent/10 to-accent/5 border-accent/30 hover:border-accent/50 transition-colors cursor-pointer opacity-60">
             <CardContent className="p-6">
               <div className="flex items-center space-x-3">
                 <div className="p-2 bg-accent/20 rounded-lg">
@@ -257,29 +261,29 @@ export default function Index() {
                 </div>
                 <div>
                   <h3 className="font-semibold">User Experience</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Journeys & interactions
-                  </p>
+                  <p className="text-sm text-muted-foreground">Coming soon</p>
                 </div>
               </div>
             </CardContent>
           </Card>
 
-          <Card className="bg-gradient-to-br from-kraken-purple-dark/10 to-kraken-purple-dark/5 border-kraken-purple-dark/30 hover:border-kraken-purple-dark/50 transition-colors cursor-pointer">
-            <CardContent className="p-6">
-              <div className="flex items-center space-x-3">
-                <div className="p-2 bg-kraken-purple-dark/20 rounded-lg">
-                  <Database className="h-6 w-6 text-kraken-purple-dark" />
+          <Link to="/analytics">
+            <Card className="bg-gradient-to-br from-kraken-purple-dark/10 to-kraken-purple-dark/5 border-kraken-purple-dark/30 hover:border-kraken-purple-dark/50 transition-colors cursor-pointer">
+              <CardContent className="p-6">
+                <div className="flex items-center space-x-3">
+                  <div className="p-2 bg-kraken-purple-dark/20 rounded-lg">
+                    <Database className="h-6 w-6 text-kraken-purple-dark" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">Analytics</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Predictions & insights
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="font-semibold">Analytics</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Predictions & insights
-                  </p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </Link>
         </div>
 
         {/* Recent Activity */}
